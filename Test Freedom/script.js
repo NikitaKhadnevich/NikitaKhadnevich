@@ -15,38 +15,41 @@
 // const age = 54
 // let x = 1
 
-const BYN = 'Buying BYN to EUR 3.14/BYN to USD '
-const EuR = 1
-const USD = 2
+const BYN = 'Buying BYN to EUR 3.14/BYN to USD ';
+const EuR = 1;
+const USD = 2;
 
 let a = prompt 
  		a('Привет, хотите узнать курсы?', 
 	 	'Какая первая валюта');
  		if (a === 'BYN' || 'Белки') {
- 			alert (BYN)
+ 			alert (BYN);
  		}
  		else if (a === USD || 'долл'){
- 			alert (USD)
+ 			alert (USD);
  		}
  		else if (a === EUR || 'евро'){
- 			alert (EUR)
+ 			alert (EUR);
  		}
- 		else
+ 		else (a != USD) {
+ 			alert ('Ошибка');
+ 		}
 
 
 
 
-let b = prompt 
- 		b('Привет, хотите узнать курсы?', 
-	 	'Какая вторая валюта');	 	
 
-const usd = x;
-const byn = y;
+// let b = prompt 
+//  		b('Привет, хотите узнать курсы?', 
+// 	 	'Какая вторая валюта');	 	
 
- 		if (x == BYN )
+// const usd = x;
+// const byn = y;
+
+//  		if (x == BYN )
 
 
-let x = prompt
+// let x = prompt
 
 
 
